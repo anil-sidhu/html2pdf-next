@@ -1,0 +1,28 @@
+{
+    "name": "anilsidhu/html2pdfNext",
+    "description": "A Simple package for easily generating PDF documents from HTML.This package is specially for laravel but you can use this without laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anil sidhu",
+            "email": "webanilsidhu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "anilsidhu\\html2pdfNext\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "anilsidhu\\html2pdfNext\\Html2pdfServiceProvider"
+            ],
+            "aliases": {
+                "Pdf": "anilsidhu\\html2pdfNext\\Facades\\Pdf"
+            }
+        }
+    }
+}

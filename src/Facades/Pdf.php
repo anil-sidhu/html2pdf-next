@@ -1,5 +1,5 @@
 <?php
-namespace NahidulHasan\Html2pdf\Facades;
+namespace anilsidhu\html2pdfNext\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
